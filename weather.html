@@ -1,0 +1,54 @@
+<!DOCTYPE Html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script src="weather.js" defer></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="weather.css">
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="wrapper">
+          <header><i class="bx bx-left-arrow-alt"></i>Weather App</header>
+          <section class="input-part">
+            <p class="info-txt"></p>
+            <input type="text" placeholder="Enter city name" required>
+            <div class="separator"></div>
+            <button>Get Device location</button>
+          </section>
+          <section class="weather-part">
+            <img src="#" alt="weather icon">
+            <div class="temp">
+              <span class="numb">_</span>
+              <span class="deg">°</span>C
+            </div>
+            <div class="weather">__</div>
+            <div class="location">
+              <i class="bx bx-map"></i>
+              <span>_, _</span>
+            </div>
+            <div class="bottom-details">
+              <div class="column feels">
+                <i class="bx bxs-thermometer"></i>
+                <div class="details">
+                  <div class="temp num-temp">
+                    <span class="numb">_</span>
+                    <span class="deg">°</span>
+                    <span>C</span>
+                  </div>
+                  <p>Feels like</p>
+                </div>
+              </div>
+              <div class="column humidity">
+                <i class="bx bxs-droplet-half"></i>
+                <div class="details">
+                  <span class="numb">_</span>
+                  <p>Humidity</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
+    </body>
+</html>
